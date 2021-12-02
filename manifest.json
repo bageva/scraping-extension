@@ -2,5 +2,9 @@
     "name": "Web scraping extension - example",
     "description": "Krowdy 12-2021",
     "version": "1.0",
-    "manifest_version": 3
+    "manifest_version": 3,
+    "permissions": ["storage"],
+    "action": {
+        "default_popup": "popup.html"
+    }
   }
